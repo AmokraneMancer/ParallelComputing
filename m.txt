@@ -1,0 +1,7 @@
+mpic++ -std=c++11 -Wall -Wextra -O2 -lboost_mpi -lboost_serialization -o TP_MPI_parallele_ex2.out TP_MPI_parallele_ex2.cpp 
+TP_MPI_parallele_ex2.cpp:6:10: fatal error: boost/mpi.hpp: Aucun fichier ou dossier de ce type
+ #include <boost/mpi.hpp>
+          ^~~~~~~~~~~~~~~
+compilation terminated.
+Makefile:8: recipe for target 'TP_MPI_parallele_ex2.out' failed
+make: *** [TP_MPI_parallele_ex2.out] Error 1
